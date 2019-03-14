@@ -34,6 +34,8 @@ date_list=[]
 MIN_ASPECT_RATIO = 0.80
 MAX_ASPECT_RATIO = 1.91
 
+if platform.system().lower() == "windows":
+    os.system('color')
 try:
     from urllib.parse import quote
 except ImportError:
