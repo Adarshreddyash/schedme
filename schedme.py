@@ -14,6 +14,7 @@ import time
 import os
 import datetime
 from PIL import Image
+import platform
 
 ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 ENDPOINT_URL = 'https://i.instagram.com/api/v1'
